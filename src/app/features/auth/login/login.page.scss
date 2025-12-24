@@ -1,0 +1,84 @@
+.login {
+  --background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__card {
+  width: min(92%, 380px);
+  margin: 0 auto;
+  padding: 36px 28px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+  text-align: center;
+  color: #0f172a;
+}
+
+.login__icon {
+  font-size: 72px;
+  color: #1d4ed8;
+  margin-bottom: 16px;
+}
+
+.login__title {
+  margin: 0 0 24px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.login__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.login__item {
+  --background: transparent;
+  --border-radius: 16px;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.login__item ion-label {
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.login__item ion-input {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  border-radius: 16px;
+  background: #e2e8f0;
+  color: #0f172a;
+  min-height: 48px;
+  width: 100%;
+}
+
+.login__password {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.login__toggle {
+  position: absolute;
+  right: 6px;
+  z-index: 2;
+  --color: #1d4ed8;
+}
+
+.login__submit {
+  --background: #1d4ed8;
+  --color: #ffffff;
+  --border-radius: 999px;
+  font-weight: 600;
+}
